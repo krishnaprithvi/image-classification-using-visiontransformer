@@ -57,7 +57,7 @@ ImageClassificationUsingVisionTransformer/
 
 # ⚙️ Setup Instructions
 ## Clone the repository
-git clone https://github.com/<your-username>/ImageClassificationUsingVisionTransformer.git
+git clone https://github.com/krishnaprithvi/image-classification-using-visiontransformer.git
 
 cd ImageClassificationUsingVisionTransformer
 
@@ -76,16 +76,16 @@ or open and execute: train_using_pretrained_model_image_classifier.ipynb
 
 
 # 🚀 How It Works
-## Data Loading
+1. Data Loading:
 The images are preprocessed (resized, normalized) and converted into tensor batches.
 
-## Model Training
+2. Model Training:
 The Vision Transformer or CNN model is trained using classification loss and optimized via backpropagation.
 
-## Evaluation
+3. Evaluation:
 Model accuracy, loss, and confusion matrices are plotted to evaluate performance.
 
-## Visualization
+4. Visualization:
 Attention heatmaps and training metrics are visualized to understand model learning behavior.
 
 
@@ -100,6 +100,7 @@ Attention heatmaps and training metrics are visualized to understand model learn
 3. Compare fine-tuned vs. from-scratch performance.
 
 
-# 📘 License
-This project is open for academic and research use.
-Feel free to modify or extend it for experiments related to vision transformers, medical imaging, or transfer learning.
+# 📌 Credits
+This project is inspired by and gives credit to **Aarohi Singla** for the original Vision Transformer implementation. This work is open for academic and research use.
+
+GitHub Repository: [Aarohi Singla - Vision Transformer](https://github.com/AarohiSingla/Image-Classification-Using-Vision-transformer)
